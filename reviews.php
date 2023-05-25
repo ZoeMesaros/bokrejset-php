@@ -14,7 +14,7 @@ $reviewView = new ReviewView();
 // ==============================================
 // Skapa vy nedan
 
-include 'partials/header-reviews.php';
+include 'partials/header.php';
 include 'partials/nav.php';
 
 

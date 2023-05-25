@@ -11,7 +11,7 @@ $userView = new UserView();
 // ==============================================
 // Skapa vy nedan
 
-include 'partials/header-users.php';
+include 'partials/header.php';
 include 'partials/nav.php';
 
 $userView->renderAllUsersAsList($userModel->getAllUsers());

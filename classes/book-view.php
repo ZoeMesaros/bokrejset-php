@@ -6,7 +6,7 @@ class BookView
     public function renderAllBooksWithAuthorsAsList(array $books): void
     {
         echo "<h3>Alla böcker</h3>";
-        echo "<table id=books>";
+        echo "<table id=\"books\">";
         echo "<th>Titel</th>";
         echo "<th>Författare</th>";
         echo "<th>Utgivningsår</th>";

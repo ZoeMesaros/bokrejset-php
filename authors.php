@@ -14,7 +14,7 @@ $authorView = new AuthorView();
 // ==============================================
 // Skapa vy nedan
 
-include 'partials/header-authors.php';
+include 'partials/header.php';
 include 'partials/nav.php';
 
 
