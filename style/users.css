@@ -1,0 +1,31 @@
+body {
+  background-color: bisque;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-column-gap: 50px;
+  grid-row-gap: 30px;
+}
+
+.userCard {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  padding: 20px 20px 20px 20px;
+}
+
+.profileImg {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.userName {
+  text-align: center;
+  font-size: 1.3rem;
+}
